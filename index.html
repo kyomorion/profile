@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MyProfile</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="自己紹介と自分の趣味を掲載するサイト">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"> 
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <a href="#" class="Profile">MyProfile</a>
+        <div class="menu">
+        <a href="#">About</a>
+        <a href="#">Works</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="slick-carousel">
+      <div>
+      <img  class="main" src="image/main.png">
+      </div>
+      <div>
+      <img class="main" src="jQuery発展編_カルーセル用画像/main2.png">
+      </div>
+      <div>
+      <img class="main" src="jQuery発展編_カルーセル用画像/main3.png">
+      </div>
+      </div>
+      <article>
+      <h1>About</h1>
+      <section class="About">
+      <img src="image/about.png" alt="プロフィール写真" class="about">
+      <div class="introduction">
+      <h2>Kazuki Azahina</h2>
+      <ul>
+        <li>２５歳 長野県佐久市出身</li>
+        <li>ソフトウェア業界でマーケティングに従事</li>
+        <li>趣味はカメラ、愛機はcanon</li>
+        <li>自然を撮影するのが好きで、海や山によく行く</li>
+      </ul>
+      </div>
+      </section>
+      <h1>Works</h1>
+      <section class="Works">
+        <div class="flexbox-container">
+          <div class="flexbox-item">
+          <a href="#">
+          <img src="image/works1.png" alt="日本海の写真">
+          </a>
+          <p>新潟に訪れた際に、日本海の雄大さに魅了されて撮影した1枚</p>
+          </div>
+          <div class="flexbox-item">
+          <a href="#">
+          <img src="image/works2.png" alt="御嶽山の写真">
+          </a>
+          <p>地元長野の木曽町から撮影した、冠雪した御嶽山</p>
+          </div>
+          <div class="flexbox-item">
+          <a href="#">
+          <img src="image/works3.png" alt="京都の街並みの写真">
+          </a>
+          <p>京都で撮影した、明け方の古き良き日本の街並み</p>
+          </div>
+        </div>
+      </section>
+      </article>
+    </main>
+    <footer class="footer">
+      <p>©MyProfile.All rights reserved.</p>
+    </footer>
+    <a href="#" id="top-btn">TOP</a>
+    <div class="modal">
+      <img src="" alt="" class="big-img">
+      <a href="" class="close-btn">✖</a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,167 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  background-color: #ffffff;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  font-size: 34px;
+  margin: 20px auto 20px auto;
+}
+nav  a{
+  text-decoration: none;
+  font-family: "Noto Sans JP", sans-serif;
+  color: black;
+}
+.Profile{
+  border: 1px solid black;
+  padding: 0px 20px;
+  margin-left: 40px;
+}
+.menu{
+  margin-right: 100px;
+}
+.menu > a{
+  margin-right: 30px;
+}
+.main{
+  width: 100vw;
+  height: 800px;
+}
+.About{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 110px;
+}
+.about{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+ h1{
+  text-align: center;
+  font-size: 34px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+h2{
+  font-size: 24px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.flexbox-container{
+  display: flex;
+  padding-bottom: 60px;
+  width: 15%;
+  margin-left: 635px;
+  justify-content: center;
+}
+
+
+.flexbox-item{
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 18px;
+}
+footer{
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  nav{
+    font-size: 10px;
+    
+    margin-left: 0px;
+  }
+ .main{
+  height: 200px;
+ }
+ .menu{
+  margin: 0px;
+ }
+ h1{
+  font-size: 20px;
+ }
+ .Profile{
+  margin: 0px;
+ }
+ .about{
+  width: 20%;
+  height: 20%;
+  margin-top: 40px;
+ }
+ .About{
+  margin-left: 0px;
+ }
+ h2{
+  font-size: 15px;
+  margin-left: 30px;
+ }
+ .introduction{
+  font-size: 0.5px;
+ }
+ 
+.flexbox-container{
+  flex-wrap: wrap;
+  margin-left: 0px;
+  align-items: center;
+  width: 100vw;
+}
+.flexbox-item{
+  
+ 
+  font-size: 18px;
+ 
+}
+#top-btn{
+  position: fixed;
+  bottom: 38px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 28px 24px;  
+  border-radius: 50%;
+  font-family: "Noto Sans JP", sans-serif;
+  display: none;
+}
+section {
+  opacity: 0;
+  transition: 1s;
+}
+
+.fade-in {
+  opacity
+  : 1;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+.big-img {
+  position: absolute;  
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;  
+  width: 80%;
+  max-width: 800px;  
+  margin: auto;  
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;  
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+}
